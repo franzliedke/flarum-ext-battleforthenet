@@ -1,0 +1,38 @@
+{
+    "name": "franzl/flarum-ext-battleforthenet",
+    "description": "Join the action to save net neutrality.",
+    "type": "flarum-extension",
+    "keywords": ["battleforthenet", "netneutrality"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Franz Liedke",
+            "email": "franz@develophp.org"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/franzliedke/flarum-ext-battleforthenet/issues",
+        "source": "https://github.com/franzliedke/flarum-ext-battleforthenet"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Franzl\\Flarum\\BattleForTheNet\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "BattleForTheNet",
+            "icon": {
+                "name": "hand-rock-o",
+                "backgroundColor": "#394C5E",
+                "color": "#fff"
+            }
+        }
+    }
+}
