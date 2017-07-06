@@ -58,6 +58,6 @@ class ExposeSettings
         $today = new DateTime();
         $begin = new DateTime('2017-07-11');
         $end   = new DateTime('2017-07-13');
-        return $today->getTimestamp() > $begin->getTimestamp() && $today->getTimestamp() < $end->getTimestamp();
+        return $today > $begin && $today < $end;
     }
 }
